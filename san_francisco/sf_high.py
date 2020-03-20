@@ -56,5 +56,5 @@ plt.title('San Francisco High Temperature April 2019', fontsize=20)
 plt.xlabel('', fontsize=14)
 plt.ylabel('Temperatures (F)', fontsize=14)
 plt.tick_params(axis='both', which='major', labelsize=14)
-
+plt.savefig('../plots/sf1.png', dpi=100)
 plt.show()
