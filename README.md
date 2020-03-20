@@ -1,2 +1,2 @@
-# California-Weather-DV
-California Weather Data Visualization (in progress)
+# California-Weather-DV (in progress)
+California Weather Data Visualization
