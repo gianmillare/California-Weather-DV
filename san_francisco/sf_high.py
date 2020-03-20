@@ -1,4 +1,5 @@
 import csv
+import matplotlib.pyplot as plt
 
 filename = '../data/sanfrancisco_weather_04-2019_simple.csv' # assign the file to a variable
 
@@ -35,3 +36,25 @@ filename = '../data/sanfrancisco_weather_04-2019_simple.csv' # assign the file t
 
 
 
+# Part 4: Plot the high temperatures
+with open(filename) as f:
+    reader = csv.reader(f)
+    header_row = next(reader)
+
+    highs = []
+    for row in reader:
+        high = int(row[5])
+        highs.append(high)
+
+# Begin plotting
+plt.style.use('seaborn')
+fig, ax = plt.subplots()
+ax.plot(highs, c='red')
+
+# Format the plot
+plt.title('San Francisco High Temperature April 2019', fontsize=20)
+plt.xlabel('', fontsize=14)
+plt.ylabel('Temperatures (F)', fontsize=14)
+plt.tick_params(axis='both', which='major', labelsize=14)
+
+plt.show()
