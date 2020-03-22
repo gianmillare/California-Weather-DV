@@ -11,6 +11,12 @@ Using Python, I take the highest and lowest temperatures measured in San Francis
 
 --------------------------------------------------------------------------------------------------------
 
+Preview of Code:
+
+![](plots/preview.png)
+
+--------------------------------------------------------------------------------------------------------
+
 Part 1: San Francisco - Visualizing specified data (first image) and adding in the dates using datetime (second image)
 
 ![](plots/sf1.png)
