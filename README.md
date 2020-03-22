@@ -26,3 +26,13 @@ Part 2: Los Angeles - Plotting larger data sets
 ![](plots/la1.png)
 
 --------------------------------------------------------------------------------------------------------
+
+Part 3: Los Angeles - Plotting two data series in the same plot (first image) and shading the area in between (second image)
+
+![](plots/la2.png)
+
+<br>
+
+![](plots/la3.png)
+
+--------------------------------------------------------------------------------------------------------
