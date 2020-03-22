@@ -4,6 +4,7 @@ from datetime import datetime
 import matplotlib.pyplot as plt
 
 filename = '../data/sanfrancisco_weather_04-2019_simple.csv' # assign the file to a variable
+filename1 = '../data/losangeles_weather_2019_simple.csv'
 
 # # Part 1: Read the file
 # with open(filename) as f: # open the file
