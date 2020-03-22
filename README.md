@@ -14,3 +14,7 @@ Using Python, I take the highest and lowest temperatures measured in San Francis
 Part 1: Visualizing specified data
 
 ![](plots/sf1.png)
+
+<br>
+
+![](plots/sf2.png)
