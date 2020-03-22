@@ -17,4 +17,6 @@ Part 1: Visualizing specified data
 
 <br>
 
+and adding in the dates using datetime
+
 ![](plots/sf2.png)
